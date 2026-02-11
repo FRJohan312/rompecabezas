@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rompecabezas - Encuentra la Pista</title>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Rompecabezas</h1>
+        <p class="subtitle">Arrastra las piezas para descubrir la imagen</p>
+
+        <div class="game-info">
+            <div class="progress">
+                <span>Progreso: <strong id="progress">0%</strong></span>
+            </div>
+            <div class="pieces-count">
+                <span>Piezas colocadas: <strong id="pieces-placed">0/30</strong></span>
+            </div>
+        </div>
+
+        <!-- Botón de auto-completar (para pruebas) -->
+        <button id="cheat-button" class="cheat-button" onclick="autoCompletePuzzle()">
+            🎯 Auto-Completar (Prueba)
+        </button>
+
+        <div id="puzzle-container" class="puzzle-container"></div>
+
+        <div id="pieces-container" class="pieces-container"></div>
+    </div>
+
+    <div id="completion-modal" class="modal">
+        <div class="modal-content">
+            <h2 id="modal-title">¡Felicidades!</h2>
+            <p id="modal-message">Has completado el rompecabezas</p>
+            <div class="loader" id="modal-loader"></div>
+            <p class="status-message" id="modal-status">Enviando correo...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
