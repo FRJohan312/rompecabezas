@@ -17,7 +17,6 @@ const EMAILJS_CONFIG = {
 
 const EMAIL_PARAMS = {
     to_email: 'archivodeltiempo2112@gmail.com',
-    to_name: 'UmVsb2o=',
     subject: 'Bien hecho',
     message: 'deberías jugar para relajarte un rato, mientras recuerdas dulces momentos...',
     from_name: 'Sistema'
@@ -316,7 +315,7 @@ async function sendEmail() {
             subject: EMAIL_PARAMS.subject,
             message: EMAIL_PARAMS.message,
             from_name: EMAIL_PARAMS.from_name,
-            to_name: 'Destinatario'
+            to_name: 'UmVsb2o='
         };
 
         console.log('📧 Enviando correo a:', EMAIL_PARAMS.to_email);
