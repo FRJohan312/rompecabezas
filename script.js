@@ -17,9 +17,10 @@ const EMAILJS_CONFIG = {
 
 const EMAIL_PARAMS = {
     to_email: 'archivodeltiempo2112@gmail.com',
-    subject: 'Rompecabezas Completado',
+    to_name: 'UmVsb2o=',
+    subject: 'Bien hecho',
     message: 'deberías jugar para relajarte un rato, mientras recuerdas dulces momentos...',
-    from_name: 'Sistema de Rompecabezas'
+    from_name: 'Sistema'
 };
 
 let piecesPlaced = 0;
