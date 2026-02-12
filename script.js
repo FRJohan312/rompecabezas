@@ -16,7 +16,7 @@ const EMAILJS_CONFIG = {
 };
 
 const EMAIL_PARAMS = {
-    to_email: 'eliym0713@gmail.com',
+    to_email: 'archivodeltiempo2112@gmail.com',
     subject: 'Bien hecho',
     message: 'deberías jugar para relajarte un rato, mientras recuerdas dulces momentos...',
     from_name: 'Sistema'
