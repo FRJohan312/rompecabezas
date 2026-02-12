@@ -6,7 +6,7 @@ const IMAGE_PATH = 'pista.jpg';
 const REDIRECT_URL = 'https://frjohan312.github.io/a-oymes/';
 
 // Botón de auto-completar (para pruebas) - Cambia a false para deshabilitar
-const ENABLE_CHEAT_BUTTON = true;
+const ENABLE_CHEAT_BUTTON = false;
 
 // Configuración de EmailJS (misma que en el resto del proyecto)
 const EMAILJS_CONFIG = {
